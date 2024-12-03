@@ -8,7 +8,7 @@ import (
 	"os"
 	"strconv"
 
-	chaos "github.com/jamesog/aaisp-chaos"
+	chaos "github.com/archey347/aaisp-chaos"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/rs/zerolog"
