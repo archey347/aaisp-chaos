@@ -26,4 +26,4 @@ jobs:
         with:
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: ${{ vars.DOCKERHUB_USERNAME }}/aaisp-chaos-exporter:${{ github.ref_name }}
+          tags: ${{ vars.DOCKERHUB_USERNAME }}/aaisp-chaos-exporter:${{ github.ref_name }}, ${{ vars.DOCKERHUB_USERNAME }}/aaisp-chaos-exporter:latest
